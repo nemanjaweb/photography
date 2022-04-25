@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+html {
+  font-family: "DM Sans", sans-serif;
+}
+section {
+  width: 1440px;
+}
+#photo-text {
+  width: 370px;
+  height: 224px;
+  background-color: #fff;
+  position: absolute;
+  top: 432px;
+  left: 300px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  padding-left: 42px;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.1);
+}
+#photo-text h2 {
+  padding-top: 42px;
+  margin-bottom: 16px;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: bold;
+}
+#photo-text p {
+  font-size: 18px;
+  line-height: 32px;
+  text-align: left;
+  color: rgba(51, 51, 51, 0.5016);
+}
+#left-content-wrapper {
+  padding-top: 216px;
+  padding-left: 135px;
+}
+#left-content-wrapper p {
+  font-weight: bold;
+  font-size: 24px;
+  color: #d6a85a;
+  margin-bottom: 21px;
+}
+#left-content-wrapper h3 {
+  width: 291px;
+  height: 192px;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: left;
+  margin-bottom: 29px;
+}
+#left-content-wrapper h4 {
+  font-size: 18px;
+  line-height: 32px;
+  width: 406px;
+  height: 96px;
+  margin-bottom: 38px;
+  margin-right: 94px;
+}
+
+#left-content-wrapper button {
+  width: 170px;
+  height: 48px;
+  border: 1.5px solid rgb(212, 212, 212);
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+#shape {
+  width: 112px;
+  height: 112px;
+  background-color: #ffd7a8;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.0967221);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 208px;
+  left: 48px;
+}
+#first {
+  width: 270px;
+  height: 320px;
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.104535);
+  border-radius: 16px;
+}
+#second {
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.104535);
+  border-radius: 16px;
+}
+#third {
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.104535);
+  border-radius: 16px;
+}
