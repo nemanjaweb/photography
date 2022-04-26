@@ -685,8 +685,8 @@ section {
 }
 /* Footer  */
 #footer {
-  height: 560px;
   background: #333333;
+  padding-bottom: 90px;
 }
 #footer-text h2 {
   font-weight: 700;
@@ -709,4 +709,26 @@ section {
   color: #ffffff;
   margin-top: 102px;
   margin-bottom: 16px;
+}
+footer {
+  background-color: #222222;
+  height: 112px;
+}
+#footer-two {
+  display: flex;
+  padding: 32px 135px;
+  align-items: center;
+}
+
+#footer-two i {
+  width: 48px;
+  height: 48px;
+  color: #fff;
+}
+#footer-two p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.502972);
 }
