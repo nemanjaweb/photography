@@ -11,6 +11,13 @@ module.exports = {
         c7e8ff: "#C7E8FF",
         ddbbeff: "#DDBEFF",
       },
+      gap: {
+        22: "22px",
+        30: "30px",
+      },
+      spacing: {
+        "135px": "135px",
+      },
     },
   },
   plugins: [],
