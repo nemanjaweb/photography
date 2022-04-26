@@ -91,17 +91,137 @@ section {
   top: 208px;
   left: 48px;
 }
+#section-3 {
+  height: 880px;
+  background-color: #f2f2f2;
+}
+#wrapper {
+  position: relative;
+}
 #first {
+  position: absolute;
+  left: 128px;
+  top: 248px;
   width: 270px;
   height: 320px;
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.104535);
   border-radius: 16px;
 }
+#first h4 {
+  width: 129px;
+  height: 64px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+  margin-top: 32px;
+  margin-left: 55px;
+  margin-bottom: 2px;
+}
+#first p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.501557);
+  margin-left: 55px;
+  margin-bottom: 74px;
+}
+#first span img {
+  margin-left: 157px;
+}
 #second {
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.104535);
   border-radius: 16px;
+  width: 202px;
+  height: 176px;
+  position: absolute;
+  top: 160px;
+  left: 435px;
+}
+#second h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+  width: 82px;
+  height: 64px;
+  margin-top: 40px;
+  margin-left: 48px;
+}
+#second span img {
+  margin-left: 129px;
 }
 #third {
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.104535);
   border-radius: 16px;
+  width: 270px;
+  height: 352px;
+  position: absolute;
+  top: 368px;
+  left: 435px;
+}
+#third h4 {
+  width: 133px;
+  height: 64px;
+  color: #333333;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 40px;
+  margin-left: 48px;
+  margin-bottom: 2px;
+}
+#third p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.501557);
+  margin-left: 48px;
+  margin-bottom: 94px;
+}
+#third span img {
+  margin-left: 162px;
+}
+#right-content-wrapper {
+  padding-top: 216px;
+  margin-left: 853px;
+}
+#right-content-wrapper p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #d6a85a;
+  margin-bottom: 21px;
+}
+#right-content-wrapper h3 {
+  width: 294px;
+  height: 128px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  color: #333333;
+  margin-bottom: 29px;
+}
+#right-content-wrapper h4 {
+  width: 470px;
+  height: 96px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #333333;
+  margin-bottom: 38px;
+}
+#play-button {
+  width: 80px;
+  height: 80px;
+  background-color: #5936af;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
